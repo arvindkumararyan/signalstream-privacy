@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SignalStream AI — Privacy Policy</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; max-width: 760px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #1a1a1a; }
+  h1 { font-size: 1.8em; margin-bottom: 0.2em; }
+  h2 { font-size: 1.3em; margin-top: 2em; border-bottom: 1px solid #ddd; padding-bottom: 0.3em; }
+  .effective-date { color: #666; font-size: 0.9em; margin-bottom: 2em; }
+  ul { padding-left: 1.3em; }
+  code { background: #f4f4f4; padding: 0.1em 0.4em; border-radius: 3px; font-size: 0.9em; }
+  footer { margin-top: 3em; padding-top: 1em; border-top: 1px solid #ddd; color: #666; font-size: 0.85em; }
+</style>
+</head>
+<body>
+
+<h1>SignalStream AI — Privacy Policy</h1>
+<p class="effective-date">Effective date: October 6, 2026</p>
+
+<p>SignalStream AI ("SignalStream," "we," "us") is a B2B service that helps businesses ("Clients") monitor messaging channels they operate — WhatsApp, Telegram, email, and Facebook (Lead Ads and Page messages/comments) — to automatically identify and organize job postings and candidate inquiries into a structured dashboard.</p>
+
+<p>This policy explains what data we collect, how we use it, and how it's protected, for both our Clients and the individuals ("Candidates") who message a Client through one of these channels.</p>
+
+<h2>What data we collect</h2>
+<ul>
+  <li><strong>Message content.</strong> The text of messages sent to a Client's connected WhatsApp number, Telegram bot/group, inbound email address, or Facebook Page/Lead Ad.</li>
+  <li><strong>Sender identifiers.</strong> Phone numbers (WhatsApp), platform user/chat IDs (Telegram), email addresses, or Facebook Page-scoped IDs — whichever identifies the sender on that channel.</li>
+  <li><strong>Profile information made available by the platform.</strong> For example, a WhatsApp or Telegram display name, where the platform provides it.</li>
+  <li><strong>Location — only if explicitly shared.</strong> If a Candidate uses WhatsApp's own "share location" feature, we store the GPS coordinates they chose to send. We never infer, estimate, or request location any other way.</li>
+  <li><strong>Structured data extracted from messages.</strong> Using AI, we extract fields like job title, company, location, salary range, required skills, and contact details from the raw message text.</li>
+</ul>
+
+<h2>How we use it</h2>
+<p>We process message content through AI language models to classify and extract structured information, so a Client can see organized leads instead of raw, noisy chat messages. Before any message text is sent to an AI model for processing, email addresses and phone numbers contained in it are automatically masked and are restored only in our own systems afterward — they are never sent to the AI model in readable form.</p>
+
+<p>Data collected through a given Client's connected channel is visible only to that Client. We do not share, sell, or combine a Candidate's data across different Clients.</p>
+
+<h2>Data retention</h2>
+<p>Raw message text is kept for 90 days and then automatically and permanently deleted by a scheduled job. Structured fields we extract (such as a job title or location) are retained for as long as the Client's account is active, since that structured summary is the product Clients use — not the original raw message.</p>
+
+<h2>Third parties we use to provide this service</h2>
+<ul>
+  <li><strong>Anthropic (Claude)</strong> — processes masked message text to extract structured information.</li>
+  <li><strong>OpenAI</strong> — generates embeddings used only to detect duplicate/reposted messages, not to identify individuals.</li>
+  <li><strong>The messaging platforms themselves</strong> (Meta/WhatsApp, Telegram, email providers) — deliver messages to us; our use of data obtained through Meta Platforms (WhatsApp, Facebook) follows Meta's <a href="https://developers.facebook.com/terms/">Platform Terms</a> and <a href="https://developers.facebook.com/devpolicy/">Developer Policies</a>, and is used solely to provide this lead-extraction service to the Client who owns that connection.</li>
+</ul>
+<p>We do not sell personal data, and we do not use Candidate data for advertising.</p>
+
+<h2>Security</h2>
+<p>Access tokens used to connect a Client's channel (e.g., a WhatsApp or Facebook access token) are encrypted at rest. Each Client's data is isolated from every other Client's data.</p>
+
+<h2>Your choices</h2>
+<p>If you are a Candidate who has messaged a business using SignalStream and want your data deleted or have questions about what's stored, contact us using the details below — we will coordinate with the relevant Client as needed.</p>
+
+<h2>Changes to this policy</h2>
+<p>We may update this policy as the service evolves. The effective date above reflects the most recent change.</p>
+
+<h2>Contact</h2>
+<p>For privacy questions or data requests: <a href="mailto:arvind.kumar.aryan@gmail.com">arvind.kumar.aryan@gmail.com</a></p>
+
+<footer>SignalStream AI</footer>
+
+</body>
+</html>
